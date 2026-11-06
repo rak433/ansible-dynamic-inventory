@@ -6,4 +6,14 @@
 
   - name: pring Hi
     debug:
-      msg: "Hi" 
+      msg: "Hi"
+
+  - name: install nginx
+    dnf:
+      name: nginx
+      state: present
+
+  - name: start nginx
+    service:
+      state: started
+      name: nginx 
