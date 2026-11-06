@@ -5,5 +5,5 @@
     ping:
 
   - name: pring Hi
-    dedug:
+    debug:
       msg: "Hi" 
